@@ -1,0 +1,35 @@
+What is Python *args ?
+To pass a variable number of arguments to a function in Python, use the special syntax *args in the function specification.
+ It is used to pass a variable-length, keyword-free argument list.
+By convention, the sign * is frequently used with the word args in the syntax for taking in a variable number of arguments.
+You can accept additional arguments using *args than the number of formal arguments you previously defined. 
+Any number of additional arguments can be added to your current formal parameters using *args (including zero extra arguments).
+
+For example, we want to make a multiply function that takes any number of arguments and is able to multiply them all together.
+ It can be done using *args.
+Using the *, the variable that we associate with the * becomes an iterable meaning you can do things like iterate over it, 
+run some higher-order functions such as map and filter, etctected.
+
+
+
+What is Python **kwargs
+The special syntax **kwargs in function definitions in python is used to pass a keyworded, variable-length argument list. 
+We use the name kwargs with the double star. The reason is that the double star allows us to pass through keyword arguments (and any number of them).
+
+A keyword argument is where you provide a name to the variable as you pass it into the function.
+One can think of the kwargs as being a dictionary that maps each keyword to the value that we pass alongside it. 
+That is why when we iterate over the kwargs there doesn’t seem to be any order in which they were printed out.
+
+
+
+Encapsulation in Python:
+Encapsulation is one of the fundamental concepts in object-oriented programming (OOP).
+
+It describes the idea of wrapping data and the methods that work on data within one unit.
+
+This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data.
+ 
+To prevent accidental change, an object’s variable can only be changed by an object’s method. 
+Those types of variables are known as private variables.
+
+A class is an example of encapsulation as it encapsulates all the data that is member functions, variables, etc.
